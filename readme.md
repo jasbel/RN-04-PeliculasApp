@@ -16,4 +16,7 @@ https://www.udemy.com/course/react-native-fh/learn/lecture/25325250#questions/14
 1. npm uninstall -g react-native-cli
 2. yarn global add @react-native-community/cli
 
+### Valor convertir datos json a typescript , js o otros
+https://app.quicktype.io/
 
+### style shadow para react native
