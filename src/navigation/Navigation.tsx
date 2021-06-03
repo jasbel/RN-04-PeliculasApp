@@ -18,12 +18,16 @@ const Navigation = () => {
             screenOptions={{
                 headerShown: false,
                 cardStyle: {
-                    backgroundColor: 'white'
+                    // backgroundColor: 'white'
                 }
             }}
         >
             <Stack.Screen name="HomeScreen" component={HomeScreen} />
-            <Stack.Screen name="DetailScreen" component={DetailScreen} />
+            <Stack.Screen
+                name="DetailScreen" 
+                component={DetailScreen}
+                // options={{cardStyle: 'white'}}
+            />
         </Stack.Navigator>
     )
 }
